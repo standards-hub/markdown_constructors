@@ -6,7 +6,8 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "deploy": "npm run build && gh-pages -d dist --repo https://github.com/standards-hub/<my-project>.git"
   },
   "dependencies": {
     "@nuxt/content-theme-docs": "^0.7.1",
