@@ -7,66 +7,117 @@ category: Markdown Constructors
 ---
 
 
-### Heading
+## Titles
 
-# H1
-## H2
-### H3
+![image](https://user-images.githubusercontent.com/3258579/124534360-f6dfec80-ddc8-11eb-8735-db82b5d5cb41.png)
 
-### Bold
+```md
+# Title Level 1
+## Title Level 2
+### Title Level 3
+#### Title Level 4
+##### Title Level 5
+```
 
+## Bold
 **bold text**
+```md
+**bold text**
+```
 
-### Italic
+## Italic
+_italicized text_
 
+```md
 *italicized text*
+```
+or
+```md
+_italicized text_
+```
 
-### Blockquote
 
+## Blockquote
 > blockquote
-
-### Ordered List
-
+```md
+> blockquote
+```
+## Ordered List
 1. First item
 2. Second item
 3. Third item
 
-### Unordered List
+```md
+1. First item
+2. Second item
+3. Third item
+```
 
+## Unordered List
 - First item
 - Second item
 - Third item
 
-### Code
+```md
+- First item
+- Second item
+- Third item
+```
 
+## Code
 `code`
 
-### Horizontal Rule
+```md
+`code`
+```
 
+## Horizontal Rule
 ---
+```md
+---
+```
 
-### Link
-
+## Link
 [Markdown Guide](https://www.markdownguide.org)
 
-### Image
+```md
+[Markdown Guide](https://www.markdownguide.org)
+```
 
+## Image
 ![alt text](https://www.markdownguide.org/assets/images/tux.png)
+```md
+![alt text](https://www.markdownguide.org/assets/images/tux.png)
+```
+or
+```md
+![image](https://user-images.githubusercontent.com/3258579/124534970-30fdbe00-ddca-11eb-8a95-ca7dd82eba41.png)
 
-## Extended Syntax
+```
+
+
+# Extended Syntax
 
 These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.
 
-### Table
+## Table
 
-| Syntax | Description |
+| Syntax      | Description |
 | ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
+| Header      |       Title |
+| Paragraph   | Text        |
 
-### Fenced Code Block
-
+```md
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      |       Title |
+| Paragraph   |       Text  |
 ```
+or
+Insert basic HTML table
+## Fenced Code Block
+
+```json
 {
   "firstName": "John",
   "lastName": "Smith",
@@ -74,11 +125,19 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 }
 ```
 
-### Footnote
+## Footnote
 
 Here's a sentence with a footnote. [^1]
-
+...
 [^1]: This is the footnote.
+
+> Note: please go to the bottom of the page to see the footnote.
+
+```md
+Here's a sentence with a footnote. [^1]
+...
+[^1]: This is the footnote.
+```
 
 ### Heading ID
 
