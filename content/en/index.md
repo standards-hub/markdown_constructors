@@ -330,3 +330,25 @@ link: https://codesandbox.io/embed/nuxt-content-l164h?hidenavigation=1&theme=dar
 **Result**
 
 <code-sandbox src="https://codesandbox.io/embed/nuxt-content-l164h?hidenavigation=1&theme=dark"></code-sandbox>
+
+## Videos
+
+<video loop playsinline controls>
+  <source src="./example.mp4" type="video/mp4" />
+</video>
+
+```md
+<video loop playsinline controls>
+  <source src="./example.mp4" type="video/mp4" />
+</video>
+```
+
+## Twitter
+
+<blockquote class="twitter-tweet"><a href="https://twitter.com/rlangvad/status/1352940444200669186?ref_src=twsrc%5Etfw"></blockquote>
+
+```md
+<blockquote class="twitter-tweet"><a href="https://twitter.com/rlangvad/status/1352940444200669186?ref_src=twsrc%5Etfw"></blockquote>
+```
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
