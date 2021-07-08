@@ -138,21 +138,21 @@ Here's a sentence with a footnote. [^1]
 ...
 [^1]: This is the footnote.
 ```
-
-### Heading ID
-
-### My Great Heading {#custom-id}
-
-### Definition List
-
-term
-: definition
-
 ### Strikethrough
-
 ~~The world is flat.~~
 
+```md
+~~The world is flat.~~
+```
+
+
 ### Task List
+
+```md
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+```
 
 - [x] Write the press release
 - [ ] Update the website
