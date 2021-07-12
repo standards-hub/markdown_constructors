@@ -23,12 +23,11 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 This is how `footnote` is displayed:
 Here's a sentence with a footnote. [^1]
 
-This is how `footnote` is written in markdown:
-
 [^1]: This is the footnote.
 
 > Note: please go to the bottom of the page to see the [footnote](/#twitter).
 
+This is how `footnote` is written in markdown:
 ```md
 Here's a sentence with a footnote. [^1]
 ...
