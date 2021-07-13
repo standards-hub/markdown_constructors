@@ -33,7 +33,7 @@ Here's a sentence with a footnote. [^1]
 ...
 [^1]: This is the footnote.
 ```
-### Strikethrough
+## Strikethrough
 ~~The world is flat.~~
 
 ```md
@@ -41,7 +41,7 @@ Here's a sentence with a footnote. [^1]
 ```
 
 
-### Task List
+## Task List
 
 ```md
 - [x] Write the press release
