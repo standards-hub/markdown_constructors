@@ -76,42 +76,59 @@ Here's a sentence with a footnote. [^1]
   - Default: `'info'`
   - Values: `['info', 'success', 'warning', 'danger']`
 
-**Example**
+This is how a `'info'` `alert` is displayed:
+<alert>
+Check out an info alert with a `codeblock` and a [link](/themes/docs)!
+</alert>
 
+
+This is how a `'info'` `alert` is written:
 ```md
 <alert>
-
 Check out an info alert with a `codeblock` and a [link](/themes/docs)!
+</alert>
 
+```
+
+This is how a `'success'` `alert` is displayed:
+<alert type= 'success'>
+Check out an success alert with a `codeblock` and a [link](/themes/docs)!
+</alert>
+
+
+This is how a `'success'` `alert` is written:
+```md
+<alert type= 'success'>
+Check out an success alert with a `codeblock` and a [link](/themes/docs)!
 </alert>
 ```
 
-**Result**
 
-<alert>
-
+This is how a `'warning'` `alert` is displayed:
+<alert type= 'warning'>
 Check out an info alert with a `codeblock` and a [link](/themes/docs)!
-
 </alert>
 
-<alert type = warning>
 
+This is how a `'warning'` `alert` is written:
+```md
+<alert type= 'warning'>
 Check out an info alert with a `codeblock` and a [link](/themes/docs)!
+</alert>
+```
 
+This is how a `'danger'` `alert` is displayed:
+<alert type = 'danger'>
+Check out an danger alert with a `codeblock` and a [link](/themes/docs)!
 </alert>
 
-<alert type = success>
 
-Check out an info alert with a `codeblock` and a [link](/themes/docs)!
-
+This is how a `'danger'` `alert` is written:
+```md
+<alert type = 'danger'>
+Check out an danger alert with a `codeblock` and a [link](/themes/docs)!
 </alert>
-
-<alert type = danger>
-
-Check out an info alert with a `codeblock` and a [link](/themes/docs)!
-
-</alert>
-
+```
 
 ## list
 
