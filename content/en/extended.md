@@ -54,7 +54,7 @@ Here's a sentence with a footnote. [^1]
 - [ ] Contact the media
 
 
-## `<alert>`
+## alert
 
 **Props**
 
@@ -100,7 +100,7 @@ Check out an info alert with a `codeblock` and a [link](/themes/docs)!
 </alert>
 
 
-## `<list>`
+## list
 
 **Props**
 
@@ -133,7 +133,7 @@ items:
 <list :items="['Item1', 'Item2', 'Item3']"></list>
 
 
-## `<badge>`
+## badge
 
 <badge>v0.5.0+</badge>
 
@@ -147,11 +147,11 @@ items:
 
 <badge>v1.2+</badge>
 
-## `<code-group>`
+## code-group
 
 This component uses `slots`, refer to `code-block` below.
 
-## `<code-block>`
+## code-block
 
 **Props**
 
@@ -204,7 +204,7 @@ This component uses `slots`, refer to `code-block` below.
   </code-block>
 </code-group>
 
-## `<code-sandbox>`
+## code-sandbox
 
 **Props**
 
