@@ -47,7 +47,11 @@ Here's a sentence with a footnote. [^1]
 [^1]: This is the footnote.
 ```
 ## Strikethrough
+This is how a `strikethrough text` is displayed:
+
 ~~The world is flat.~~
+
+This is how a `strikethrough text` is written in markdown:
 
 ```md
 ~~The world is flat.~~
@@ -55,12 +59,14 @@ Here's a sentence with a footnote. [^1]
 
 
 ## Task List
+This is how a `task list` is displayed:
 
 ```md
 - [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
 ```
+This is how a `task list` is written in markdown:
 
 - [x] Write the press release
 - [ ] Update the website
@@ -76,13 +82,13 @@ Here's a sentence with a footnote. [^1]
   - Default: `'info'`
   - Values: `['info', 'success', 'warning', 'danger']`
 
-This is how a `'info'` `alert` is displayed:
+This is how an `'info'` `alert` is displayed:
 <alert>
 Check out an info alert with a `codeblock` and a [link](/themes/docs)!
 </alert>
 
 
-This is how a `'info'` `alert` is written:
+This is how an `'info'` `alert` is written:
 ```md
 <alert>
 Check out an info alert with a `codeblock` and a [link](/themes/docs)!
@@ -186,7 +192,7 @@ This is how a `badge` is written in markdown:
   - Type: `Boolean`
   - Default: `false`
 
-This is how a `badge` is displayed:
+This is how a `code-block` is displayed:
 
 <code-group>
   <code-block label="Yarn" active>
@@ -205,7 +211,7 @@ This is how a `badge` is displayed:
   </code-block>
 </code-group>
 
-This is how a `badge` is written in markdown:
+This is how a `code-block` is written in markdown:
 
 ```html
 # Backslashes are for demonstration
