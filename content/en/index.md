@@ -113,7 +113,10 @@ This is how `code` is written in markdown:
 ```
 
 ## Horizontal Rule
+
+
 This is how a `horizontal rule` is displayed:
+
 ---
 This is how a `horizontal rule` is written in markdown:
 

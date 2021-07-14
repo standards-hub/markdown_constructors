@@ -61,26 +61,19 @@ This is how a `strikethrough text` is written in markdown:
 ## Task List
 This is how a `task list` is displayed:
 
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+
+This is how a `task list` is written in markdown:
+
 ```md
 - [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
 ```
-This is how a `task list` is written in markdown:
 
-- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
-
-
-## alert
-
-**Props**
-
-- `type`
-  - Type: `String`
-  - Default: `'info'`
-  - Values: `['info', 'success', 'warning', 'danger']`
+## Alert
 
 This is how an `'info'` `alert` is displayed:
 <alert>
@@ -138,19 +131,6 @@ Check out an danger alert with a `codeblock` and a [link](/themes/docs)!
 
 ## List
 
-**Props**
-
-- `items`
-  - Type: `Array`
-  - Default: `[]`
-- `type` <badge>v0.7.0+</badge>
-  - Type: `String`
-  - Default: `'primary'`
-  - Values: `['primary', 'info', 'success', 'warning', 'danger']`
-- `icon` <badge>v0.7.0+</badge>
-  - Type: `String`
-  - *Can be used to override the default `type` icon, check out the [icons available](https://github.com/nuxt/content/tree/dev/packages/theme-docs/src/components/global/icons)*
-
 This is how a `list` is displayed:
 
 <list :items="['Item1', 'Item2', 'Item3']"></list>
@@ -169,8 +149,6 @@ items:
 <list :items="items"></list>
 ```
 
-
-
 ## Badge
 
 This is how a `badge` is displayed:
@@ -182,15 +160,6 @@ This is how a `badge` is written in markdown:
 ```
 
 ## Code-block
-
-**Props**
-
-- `label`
-  - Type: `String`
-  - `required`
-- `active`
-  - Type: `Boolean`
-  - Default: `false`
 
 This is how a `code-block` is displayed:
 
@@ -236,11 +205,6 @@ This is how a `code-block` is written in markdown:
 
 ## Code-sandbox
 
-**Props**
-
-- `src`
-  - Type: `String`
-  - `required`
 
 This is how a `code-sandbox` is displayed:
 
