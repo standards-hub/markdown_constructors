@@ -136,7 +136,7 @@ Check out an danger alert with a `codeblock` and a [link](/themes/docs)!
 </alert>
 ```
 
-## list
+## List
 
 **Props**
 
@@ -171,7 +171,7 @@ items:
 
 
 
-## badge
+## Badge
 
 This is how a `badge` is displayed:
 <badge>v1.2+</badge>
@@ -181,7 +181,7 @@ This is how a `badge` is written in markdown:
 <badge>v1.2+</badge>
 ```
 
-## code-block
+## Code-block
 
 **Props**
 
@@ -234,7 +234,7 @@ This is how a `code-block` is written in markdown:
 </code-group>
 ```
 
-## code-sandbox
+## Code-sandbox
 
 **Props**
 
