@@ -202,23 +202,6 @@ This is how a `code-block` is written in markdown:
 </code-group>
 ```
 
-## Code Sandbox
-
-
-This is how a `code-sandbox` is displayed:
-
-<code-sandbox src="https://codesandbox.io/embed/nuxt-content-l164h?hidenavigation=1&theme=dark"></code-sandbox>
-
-This is how a `code-sandbox` is written in markdown:
-
-```md
----
-link: https://codesandbox.io/embed/nuxt-content-l164h?hidenavigation=1&theme=dark
----
-
-<code-sandbox :src="link"></code-sandbox>
-```
-
 ## Videos
 
 This is how a `video` is displayed:
