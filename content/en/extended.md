@@ -21,8 +21,7 @@ This is how a `Fenced Code Block` is displayed:
 ```
 
 This is how a `Fenced Code Block` is written in markdown:
-
-<block>
+~~~md
 ```
 {
   "firstName": "John",
@@ -30,7 +29,7 @@ This is how a `Fenced Code Block` is written in markdown:
   "age": 25
 }
 ```
-</block>
+~~~
 
 ## Footnote
 This is how a `footnote` is displayed:
@@ -75,13 +74,13 @@ This is how a `task list` is written in markdown:
 
 ## Alert
 
-This is how an `'info'` `alert` is displayed:
+This is how an `Info Alert` is displayed:
 <alert>
 Check out an info alert with a `codeblock` and a [link](/themes/docs)!
 </alert>
 
 
-This is how an `'info'` `alert` is written:
+This is how an `Info Alert` is written:
 ```md
 <alert>
 Check out an info alert with a `codeblock` and a [link](/themes/docs)!
@@ -89,13 +88,13 @@ Check out an info alert with a `codeblock` and a [link](/themes/docs)!
 
 ```
 
-This is how a `'success'` `alert` is displayed:
+This is how a `Success Alert` is displayed:
 <alert type= 'success'>
 Check out an success alert with a `codeblock` and a [link](/themes/docs)!
 </alert>
 
 
-This is how a `'success'` `alert` is written:
+This is how a `Success Alert` is written:
 ```md
 <alert type= 'success'>
 Check out an success alert with a `codeblock` and a [link](/themes/docs)!
@@ -103,26 +102,26 @@ Check out an success alert with a `codeblock` and a [link](/themes/docs)!
 ```
 
 
-This is how a `'warning'` `alert` is displayed:
+This is how a `Warning Alert` is displayed:
 <alert type= 'warning'>
 Check out an info alert with a `codeblock` and a [link](/themes/docs)!
 </alert>
 
 
-This is how a `'warning'` `alert` is written:
+This is how a `Warning Alert` is written:
 ```md
 <alert type= 'warning'>
 Check out an info alert with a `codeblock` and a [link](/themes/docs)!
 </alert>
 ```
 
-This is how a `'danger'` `alert` is displayed:
+This is how a `Danger Alert` is displayed:
 <alert type = 'danger'>
 Check out an danger alert with a `codeblock` and a [link](/themes/docs)!
 </alert>
 
 
-This is how a `'danger'` `alert` is written:
+This is how a `Danger Alert` is written:
 ```md
 <alert type = 'danger'>
 Check out an danger alert with a `codeblock` and a [link](/themes/docs)!
@@ -159,7 +158,7 @@ This is how a `badge` is written in markdown:
 <badge>v1.2+</badge>
 ```
 
-## Code-block
+## Code Block
 
 This is how a `code-block` is displayed:
 
@@ -201,23 +200,6 @@ This is how a `code-block` is written in markdown:
 
   </code-block>
 </code-group>
-```
-
-## Code-sandbox
-
-
-This is how a `code-sandbox` is displayed:
-
-<code-sandbox src="https://codesandbox.io/embed/nuxt-content-l164h?hidenavigation=1&theme=dark"></code-sandbox>
-
-This is how a `code-sandbox` is written in markdown:
-
-```md
----
-link: https://codesandbox.io/embed/nuxt-content-l164h?hidenavigation=1&theme=dark
----
-
-<code-sandbox :src="link"></code-sandbox>
 ```
 
 ## Videos
