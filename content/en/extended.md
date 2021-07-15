@@ -21,8 +21,7 @@ This is how a `Fenced Code Block` is displayed:
 ```
 
 This is how a `Fenced Code Block` is written in markdown:
-
-<block>
+~~~md
 ```
 {
   "firstName": "John",
@@ -30,7 +29,7 @@ This is how a `Fenced Code Block` is written in markdown:
   "age": 25
 }
 ```
-</block>
+~~~
 
 ## Footnote
 This is how a `footnote` is displayed:
