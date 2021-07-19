@@ -1,16 +1,18 @@
 import theme from '@nuxt/content-theme-docs'
 
 export default theme({
+
+  components: [
+    { path: '~/components', level: 1},
+    { path: '../../../../elastichub-theme/components', level: 0}
+  ],
+
   target: 'static',
-  
+
   generate: {
     fallback: "404.html"
   },
-
-  buildModules: [
-    '@nuxtjs/color-mode'
-  ],
-
+  
   docs: {
     primaryColor: '#E24F55'
   },
