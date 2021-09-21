@@ -226,8 +226,18 @@ This is how a `twitt` is displayed:
 
 This is how a `twitt` is written in markdown:
 
-```md
+```html
 <blockquote class="twitter-tweet"><a href="https://twitter.com/rlangvad/status/1352940444200669186?ref_src=twsrc%5Etfw"></a></blockquote>
 ```
 
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## YouTube
+This is how a `youtube` reference is displayed:
+<YoutubeSubscribeButton identifier="my-subscribe-button" channel="GoogleDevelopers"></YoutubeSubscribeButton>
+
+This is how a `youtube` reference is written in markdown:
+
+```html
+<YoutubeSubscribeButton identifier="my-subscribe-button" channel="GoogleDevelopers"></YoutubeSubscribeButton>
+```
