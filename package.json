@@ -20,7 +20,7 @@
   "devDependencies": {
     "@nuxtjs/cssnano": "^1.0.1",
     "@nuxtjs/optimize": "^1.1.1",
-    "@nuxtjs/pwa": "^0.2.1",
+    "@nuxtjs/pwa": "^3.3.5",
     "babel-eslint": "^8.0.1",
     "buefy": "^0.7.2",
     "bulmaswatch": "^0.5.0",
